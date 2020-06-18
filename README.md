@@ -1,3 +1,5 @@
+# No longer support
+
 # broadlink-heater-cooler-homebridge
 
 install plugin
@@ -16,7 +18,8 @@ simple config
     "accessories": [
         {
             "accessory": "BroadlinkHeaterCooler",
-            "name": "Air Conditioner"
+            "name": "Air Conditioner",
+            "ip":"192.168.xxx.xxx"
         }
     ],
     "platforms": [
